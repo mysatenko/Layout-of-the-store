@@ -16,6 +16,6 @@ $(function () {
     // stiky scroll header
     window.addEventListener('scroll', function() {
         const header = this.document.querySelector('.header__top-inner');
-        header.classList.toggle('sticky', window.scrollY > 0)
+        header.classList.toggle(' ', window.scrollY > 0)
     })
 });
